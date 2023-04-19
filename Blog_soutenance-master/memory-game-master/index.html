@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="style.css"></link>
+  <script src="app.js" charset="utf-8"></script>
+  
+  <style>
+    /* Style de la navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: white;
+      color: black;
+    }
+    
+    /* Style du logo */
+    .navbar-logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    
+    /* Style du bouton */
+    .navbar-button {
+      padding: 8px 16px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-logo">Myriam</div>
+    <button class="navbar-button" onclick="window.location.href='../index.php'">Portfolio</button>
+  </div>
+
+  <h3>Score:<span id="result"></span></h3>
+
+  <div class="grid">
+  </div>
+</body>
+</html>
+
